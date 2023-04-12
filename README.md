@@ -1,8 +1,8 @@
-# Monorepo-sketch
+# Cadastro de Usuarios
 
 ## Sobre o projeto:
 
-Esboço de monorepositorio React + Node para facilitar a criação de projetos futuros.
+Tela de login , com cadastro de usuarios.
 
 ## Tecnologias usadas:
 
