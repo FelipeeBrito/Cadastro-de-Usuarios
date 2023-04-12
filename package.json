@@ -1,0 +1,26 @@
+{
+  "name": "monorepo",
+  "repository": "https://github.com/kelvinteixeira/monorepo-sketch",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start:server": "yarn workspace @monorepo/server start",
+    "start:frontend": "yarn workspace @monorepo/web start",
+    "test:frontend": "yarn workspace @monorepo/web test",
+    "lint": "yarn workspaces run lint",
+    "prepare": "husky install"
+  },
+  "author": "Kelvin Teixeira Santos",
+  "license": "ISC",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^17.0.2",
+    "husky": "^8.0.3"
+  }
+}
